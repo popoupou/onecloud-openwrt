@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get install img2simg
-./AmlImg unpack ./uboot.img burn/
+./AmlImg unpack ./uboot2g.img burn/
 gzip -dk openwrt/bin/targets/*/*/*.gz
 
 diskimg_path="openwrt/bin/targets/*/*/*.img"
